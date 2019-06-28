@@ -12,6 +12,7 @@ tags:
 Hi everyone, this is my first post :D
 
 This blog has some inital proposals, and they are:
+
 * Knowledge dissemination with Information Security and Development
 * Pratics with english, ruby, markdown, github and writing
 * Other random things

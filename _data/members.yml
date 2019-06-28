@@ -1,0 +1,145 @@
+- name: Adriano Ribeiro (Captain)
+  job: Information Security Analyst and Researcher
+  skills: Web, Forense, Net, Crypto, Stego
+  email: adriano@fireshellsecurity.team
+  twitter: adriano_srib
+  img: adriano.jpg
+
+- name: Alisson "Infektion" Bezerra (Vice Captain)
+  job: Developer and security researcher. CTFs lover and security enthusiast
+  skills: Reversing, Pwn, Exploitation, Web
+  email: alisson@fireshellsecurity.team
+  twitter: InfektionCTF
+  img: alisson.jpg
+
+- name: Daniel "dapolinario" Apolinario (Vice Captain)
+  job: Information Technology Analyst. Enthusiast of Linux and computer networks
+  skills: Stego, Net, Misc
+  email: dapolinario@fireshellsecurity.team
+  twitter: dapolinario7
+  img: daniel.jpg
+
+#- name: Andeton Feitosa
+#  job: Digital game developer, enthused about security and hacking
+#  skills: Web, Crypto, Forensic, Stego
+#  email: andeton@fireshellsecurity.team
+#  twitter: Andeton_aki
+#  img: andeton.jpg
+
+#- name: Cassius Puodzius
+#  job: Information Security Researcher
+#  skills: Crypto, Reversing, Forensic, Stego
+#  email: cpuodzius@fireshellsecurity.team
+#  twitter: cpuodzius
+#  img: cassius.jpg
+
+- name: Daniel "Dan_Ps" Patricio
+  job: Security analyst
+  skills: Pwn, Reversing, Crypto
+  email: danielpatricio@fireshellsecurity.team
+  img: danielp.png
+
+- name: Diogenes "diofeher" Fernandes
+  job: Senior Full-Stack and Blockchain Developer
+  skills: Crypto, Web, Programming
+  email: diofeher@fireshellsecurity.team
+  twitter: diofeher
+  img: diogenes.jpg
+
+- name: Elber "f0lds" Tavares
+  job: Security Researcher
+  skills: Web, Programming
+  email: f0lds@fireshellsecurity.team
+  twitter: Elber333
+  img: elber.jpg
+
+#- name: Felipe "d4rc0d3x" Martins
+#  job: Senior Pentester, Security Researcher, Speaker, Author
+#  skills: Web, Net, Forensics, Exploitation, Stego, Crypto
+#  email: d4rc0d3x@fireshellsecurity.team
+#  site: https://www.felipemartins.info/
+#  twitter: fmrsecurity
+#  img: felipe.jpg
+
+#- name: Françuar "SnakeTomahawk" Mesquita 
+#  job: Pentester
+#  skills: Web,Forensic, Stego, Crypto
+#  email: snaketomahawk@fireshellsecurity.team
+#  twitter: SnakeTomahawk
+#  img: francuar.jpg
+
+#- name: Gilmar "heaven" Silva
+#  job: Programmer, security research
+#  skills: Web, Forensic, Programming, Crypto
+#  site: https://heavenh.github.io/
+#  email: gilmar@fireshellsecurity.team
+#  img: gilmar.jpg
+
+#- name: Guilherme "k33r0k" Assmann
+#  job: Pentester
+# skills: Web, Programming, Crypto
+# site: https://m4k4br0.github.io/
+# email: guilherme@fireshellsecurity.team
+# img: guilherme.jpg
+
+- name: Kauê Doretto
+  job: CSIRT Analyst, DevOps
+  skills: Programming, Forensic
+  email: kauedg@fireshellsecurity.team
+  twitter: kauedg
+  img: kaue.jpg
+
+- name: Lucas "K4L1" Nathaniel
+  job: Programmer, security research
+  skills: Programming, Crypto, Stego
+  email: lucasnataniel@fireshellsecurity.team
+  twitter: K4L1_FS
+  img: lucas.jpg
+
+- name: Lucas Pinheiro
+  job: Security Researcher
+  skills: Pwn, Reversing
+  email: lucaspinheiro@fireshellsecurity.team
+  img: lucasp.jpg
+  
+#- name: Mateus Pimentel
+#  job: Programmer, security researcher
+#  skills: Reversing, Programming, Crypto
+#  email: mateus.pimentel@fireshellsecurity.team
+#  img: mateus.jpg
+
+- name: Marzano
+  job: Security Researcher
+  skills: Crypto, Web, Reversing, Programming
+  email: marzano@fireshellsecurity.team
+  img: marzano.png 
+
+- name: Rafael "rasknikov" Correia
+  job: Security Analyst
+  skills: Web, Programming, Crypto
+  email: rafael@fireshellsecurity.team
+  img: rafael.jpg
+
+- name: Renato "shrimpgo" Pacheco
+  job: Information Technology Analyst and Security Researcher
+  skills: Forensics, Stego, Net, Reversing, Pwn
+  email: shrimpgo@fireshellsecurity.team
+  img: shrimpgo.jpg
+
+#- name: Thiago "THX" Sena
+#  job: Security research
+#  skills: Crypto, Forensics, Net
+#  email: thiago@fireshellsecurity.team
+#  img: thiago.jpg
+
+#- name: Victor Matuk
+#  job: CSIRT Specialist
+#  skills: Web, Programming
+#  email: victormatuk@fireshellsecurity.team
+#  img: victor.jpg
+
+- name: Vitor Aguiar
+  job: Information Security Analyst
+  skills: Web, Pwn, Exploitation, Reversing, Misc
+  email: vitor@fireshellsecurity.team
+  img: vitor.jpg

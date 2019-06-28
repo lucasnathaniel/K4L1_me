@@ -1,0 +1,19 @@
+#sponsors {
+  a {
+    text-decoration: none;
+    border: none;
+    &:hover {
+      color: $info;
+    }
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 12px 12px 3px rgba(34, 25, 25, 0.4);
+    -moz-box-shadow: 12px 12px 3px rgba(34, 25, 25, 0.4);
+    -webkit-box-shadow: 12px 12px 3px rgba(34, 25, 25, 0.4);
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+}

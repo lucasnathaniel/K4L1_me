@@ -1,0 +1,62 @@
+award:
+  name: Award
+
+ctf:
+  name: Capture the Flag
+
+cve:
+  name: Common Vulnerabilities and Exposures
+
+highlight:
+  name: Highlight
+
+participation:
+  name: Participation
+
+pentest:
+  name: Pentest
+
+poc:
+  name: Proof of Concept
+
+review:
+  name: Review
+
+writeup:
+  name: Writeup
+
+web:
+  name: Web
+
+crypto:
+  name: Cryptography
+
+misc:
+  name: Miscellaneous
+
+pwn:
+  name: Pwnable
+
+rev:
+  name: Reverse Engineering
+
+for:
+  name: Forensics
+
+stego:
+  name: Steganography
+
+net:
+  name: Networking
+
+prog:
+  name: Programming
+
+bugbounty:
+  name: Bug Bounty
+
+ssrf:
+  name: Server Side Request Forgery
+
+recruting:
+  name: Recruting

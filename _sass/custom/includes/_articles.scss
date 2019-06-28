@@ -1,0 +1,16 @@
+#articles {
+  a {
+    text-decoration: none;
+    border: none;
+    &:hover {
+      color: $info;
+    }
+  }
+  li {
+    font-size: 18px;
+  }
+}
+
+#logo-tags{
+  font-size: 1.6rem;
+}

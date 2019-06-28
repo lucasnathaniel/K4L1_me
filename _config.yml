@@ -1,11 +1,10 @@
 # Site settings
-title: FireShell Security Team
-email: contact@fireshellsecurity.team
-description: The FireShell Security Team is an initiative created in 2017 that aims to disseminate knowledge in the areas of InfoSec, CTFs and Hacking.
+title: blog do K4L1
+email: lucasnataniel@fireshellsecurity.team
+description: Some information about dev, infosec and others things
 google_analytics: UA-108548581-1
 baseurl: ""
-url: "https://fireshellsecurity.team"
-enforce_ssl: fireshellsecurity.team
+url: "https://lucasnathaniel.github.io/"
 author: root
 
 theme: jekyll-theme-hacker

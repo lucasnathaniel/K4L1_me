@@ -1,15 +1,10 @@
 ---
 layout: default
 ---
-<section id="tags">
-  <div class="container py-3">
-    <div class="row">
-      <div class="col">
-	<h2 class="text-primary"><i class="fas fa-tag"></i> {{ site.data.tags[page.tag].name }}</h2>
 
-<div class="container py-3">
+<h2 class="dripicons-tag"> {{ page.tag }}</h2>
+
 {% include tags.html %}
-</div>
 
 {% if site.tags[page.tag] %}
   {% for post in site.tags[page.tag] %}
@@ -30,7 +25,7 @@ layout: default
     {% endif %}
 
     <h3>
-        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <a href="{{ post.url | prepend: site.baseurl }}" class="post-desc">{{ post.title }}</a>
     </h3>
         <p >{{ post.content | strip_html | truncatewords:20}}</p>
     
@@ -41,7 +36,3 @@ layout: default
 {% else %}
   <p>There are no posts for this tag.</p>
 {% endif %}
-     </div>
-    </div>
-  </div>
-</section>

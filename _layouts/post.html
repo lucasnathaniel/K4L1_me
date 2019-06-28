@@ -3,30 +3,28 @@ layout: default
 ---
 {% assign post = page %}
 
-<div id="post" class="container pt-3">
-  <div class="row">
-    <div class="col">
-    <p class="lead text-info">{{ post.date | date: "%A, %B %-d, %Y" }}</p>
+    <span class="post-meta">{{ post.date | date: "%A, %B %-d, %Y" }}</span>
     <h1>{{ page.title }}</h1>
-    <p class="lead text-info">by <a href="/{{ page.author }}/">{{ site.data.authors[page.author].name| default: site.author }}</a></p>
 
-<article>
+<p class="post-meta">by {{ page.author | default: site.author }}</p>
+
     {{ content }}
 
     {% if post.tags.size > 0 %}
       {% capture tags_content %}{% if post.tags.size == 1 %}
-      <i class="fas fa-tag"></i>
+      <span class="icon dripicons-tag">
+      </span>
 
       {% else %}
-      <i class="fas fa-tags"></i>
+      <span class="icon dripicons-tags">
+      </span>
       {% endif %}{% endcapture %}
       
-      {% assign tags_sort = post.tags | sort %}
-      {% for post_tag in tags_sort %}
+      {% for post_tag in post.tags %}
          {% assign tag = site.data.tags[post_tag] %}
         {% if tag %}{% capture tags_content_temp %}
 	{{ tags_content }}
-	<a class="small" href="/{{ post_tag }}/">{{ tag.name }}</a>
+	<a class="post-content__tag small" href="/{{ post_tag }}/">{{ tag.name }}</a>
 	{% if forloop.last == false %}, {% endif %}{% endcapture %}
           {% assign tags_content = tags_content_temp %}
         {% endif %}
@@ -35,11 +33,4 @@ layout: default
       {% assign tags_content = '' %}
     {% endif %}
 
-    <p>{{ tags_content }}</p>
-</article>
-{% if site.disqus.shortname %}
-  {% include disqus_comments.html %}
-{% endif %}
-</div>
-  </div>
-</div>
+    <p class="post-meta">{{ tags_content }}</p>

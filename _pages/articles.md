@@ -4,27 +4,9 @@ title: Articles
 permalink: /articles/
 ---
 
-<section id="articles">
-  <div class="container py-3">
-    <div class="row">
-      <div class="col">
-	<h2 class="text-primary">Articles</h2>
-<div class="container py-3">
-  <div class="row">
-    <div class="col-sm-1">
-      <p id="logo-tags" class="text-secondary text-center"><i class="fas fa-tags"></i></p>
-    </div>
-    {% include tags.html %}
-  </div>
-</div>
-<div class="container py-3">
-  <div class="row">
-    <div class="col-sm-1">
-      <p id="logo-tags" class="text-secondary text-center"><i class="fas fa-user-secret"></i></p>
-    </div>
-    {% include authors.html %}
-  </div>
-</div>
+## Articles
+
+{% include tags.html %}
 
 {% for post in site.posts  %}
   {% capture this_year %}
@@ -40,8 +22,7 @@ permalink: /articles/
   {% endif %}
 
     <li>
-      <span>{{ post.date | date: "%b %d, %Y" }}</span> -
-      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <a href="{{ post.url | prepend: site.baseurl }}" class="post-article">{{ post.title }}</a>
     </li>
 
   {% if forloop.last %}
@@ -52,7 +33,3 @@ permalink: /articles/
   <ul>
   {% endif %}{% endif %}
 {% endfor %}
-     </div>
-    </div>
-  </div>
-</section>

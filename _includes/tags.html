@@ -1,16 +1,8 @@
+<div class="post-tags">
   {% assign tags = site.tags | sort %}
-    <div class="col">
-  <ul class="nav nav-pills">
   {% for tag in tags %}
-  <li class="nav-item">
-  {% if page.tag == tag[0] %}
-    <a id="tag" class="nav-link active btn" href="/{{ tag | first | slugify }}/">
-  {% else %}
-    <a id="tag" class="nav-link btn" href="/{{ tag | first | slugify }}/">
-  {% endif %}
-	    <span>{{ tag[0] }}</span> <b class="rounded">{{ tag | last | size }}</b>
+    <a href="/{{ tag | first | slugify }}/" class="post">
+      <span>{{ tag[0] }}</span> <span>({{ tag | last | size }})</span>
     </a>
-  </li>
   {% endfor %}
- </ul>
-  </div>
+</div>

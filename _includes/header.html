@@ -1,29 +1,13 @@
-<nav class="navbar navbar-expand-md navbar-light py-4">
-  <div class="container">
-    <a href="{{ site.baseurl }}/" class="navbar-brand">
-		<img src="{{ '/assets/images/title.gif' | relative_url }}" width="256px">
-    </a>
-    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a href="{{ site.baseurl }}/" class="nav-link"><i class="fas fa-home"></i> Home</a>
-        </li>
-        <li class="nav-item">
-          <a href="{{ site.baseurl }}{% link _pages/team.md %}" class="nav-link"><i class="fas fa-users"></i> Team</a>
-        </li>
-        <li class="nav-item">
-          <a href="{{ site.baseurl }}{% link _pages/articles.md %}" class="nav-link"><i class="far fa-newspaper"></i> Articles</a>
-        </li>
-        <li class="nav-item">
-          <a href="{{ site.baseurl }}{% link _pages/sponsors.md %}" class="nav-link"><i class="far fa-flag"></i> Sponsors</a>
-        </li>
-        <li class="nav-item">
-          <a href="{{ site.baseurl }}{% link _pages/about.md %}" class="nav-link"><i class="far fa-question-circle"></i> About</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+    <header>
+      <div class="container">
+	      <a href="/"><img src="{{ '/assets/images/title.png' | relative_url }}" width="480px" class="align" alt="FireShell Security Team"></a>
+
+        <section id="downloads">
+          <a href="/" class="btn dripicons-home"><span class="icon"></span>Home</a>
+          <a href="{{ site.baseurl }}{% link _pages/team.md %}" class="btn dripicons-user-group"><span class="icon"></span>Team</a>
+          <a href="{{ site.baseurl }}{% link _pages/articles.md %}" class="btn dripicons-article"><span class="icon"></span>Articles</a>
+          <a href="{{ site.baseurl }}{% link _pages/sponsors.md %}" class="btn dripicons-flag"><span class="icon"></span>Sponsors</a>
+          <a href="{{ site.baseurl }}{% link _pages/about.md %}" class="btn dripicons-question"><span class="icon"></span>About</a>
+        </section>
+      </div>
+    </header>

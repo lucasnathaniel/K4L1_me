@@ -6,28 +6,19 @@ google_analytics: UA-108548581-1
 baseurl: ""
 url: "https://fireshellsecurity.team"
 enforce_ssl: fireshellsecurity.team
-facebook_username: fireshellst
-twitter_username: fireshellst
-linkedin_username: fireshell-security-team
-instagram_username: fireshellsecurityteam
-telegram_username: fireshellnews
+author: root
 
-disqus:
-    shortname: fireshellsecurityteam
+theme: jekyll-theme-hacker
 
 plugins:
   - jekyll-feed
   - jekyll-admin
-  - jekyll-seo-tag
 
 include: ["_pages"]
 exclude:
+        - script
         - Gemfile
         - Gemfile.lock
+        - jekyll-theme-hacker.gemspec
         - LICENSE
 permalink: /:title/ 
-
-collections:
-  authors:
-    output: true
-    permalink: /:title/

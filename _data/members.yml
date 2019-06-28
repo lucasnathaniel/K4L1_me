@@ -12,19 +12,19 @@
   twitter: InfektionCTF
   img: alisson.jpg
 
-- name: Daniel "dapolinario" Apolinario (Vice Captain)
+- name: Daniel Apolinario (Vice Captain)
   job: Information Technology Analyst. Enthusiast of Linux and computer networks
   skills: Stego, Net, Misc
   email: dapolinario@fireshellsecurity.team
   twitter: dapolinario7
   img: daniel.jpg
 
-#- name: Andeton Feitosa
-#  job: Digital game developer, enthused about security and hacking
-#  skills: Web, Crypto, Forensic, Stego
-#  email: andeton@fireshellsecurity.team
-#  twitter: Andeton_aki
-#  img: andeton.jpg
+- name: Andeton Feitosa
+  job: Digital game developer, enthused about security and hacking
+  skills: Web, Crypto, Forensic, Stego
+  email: andeton@fireshellsecurity.team
+  twitter: Andeton_aki
+  img: andeton.jpg
 
 #- name: Cassius Puodzius
 #  job: Information Security Researcher
@@ -33,20 +33,14 @@
 #  twitter: cpuodzius
 #  img: cassius.jpg
 
-- name: Daniel "Dan_Ps" Patricio
-  job: Security analyst
-  skills: Pwn, Reversing, Crypto
-  email: danielpatricio@fireshellsecurity.team
-  img: danielp.png
-
-- name: Diogenes "diofeher" Fernandes
+- name: Diogenes Fernandes
   job: Senior Full-Stack and Blockchain Developer
   skills: Crypto, Web, Programming
   email: diofeher@fireshellsecurity.team
   twitter: diofeher
   img: diogenes.jpg
 
-- name: Elber "f0lds" Tavares
+- name: Elber "F0lds" Tavares
   job: Security Researcher
   skills: Web, Programming
   email: f0lds@fireshellsecurity.team
@@ -96,12 +90,6 @@
   twitter: K4L1_FS
   img: lucas.jpg
 
-- name: Lucas Pinheiro
-  job: Security Researcher
-  skills: Pwn, Reversing
-  email: lucaspinheiro@fireshellsecurity.team
-  img: lucasp.jpg
-  
 #- name: Mateus Pimentel
 #  job: Programmer, security researcher
 #  skills: Reversing, Programming, Crypto
@@ -109,14 +97,14 @@
 #  img: mateus.jpg
 
 - name: Marzano
-  job: Security Researcher
+  job: Security researcher
   skills: Crypto, Web, Reversing, Programming
   email: marzano@fireshellsecurity.team
   img: marzano.png 
 
 - name: Rafael "rasknikov" Correia
   job: Security Analyst
-  skills: Web, Programming, Crypto
+  skills: Web, Programming, Misc, Crypto
   email: rafael@fireshellsecurity.team
   img: rafael.jpg
 
@@ -137,9 +125,3 @@
 #  skills: Web, Programming
 #  email: victormatuk@fireshellsecurity.team
 #  img: victor.jpg
-
-- name: Vitor Aguiar
-  job: Information Security Analyst
-  skills: Web, Pwn, Exploitation, Reversing, Misc
-  email: vitor@fireshellsecurity.team
-  img: vitor.jpg

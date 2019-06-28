@@ -11,8 +11,12 @@ tags:
 
 Hi everyone, this is my first post :D
 
-This blog has some inital proposals, and they are:
+This blog is inspired by Anti-Parasitic Manifest/Philosofy, you can listen more about that here:
 
-* Knowledge dissemination with Information Security and Development
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/nX0wPjNzn3o/0.jpg)](https://www.youtube.com/watch?v=nX0wPjNzn3o)
+
+I have some inital proposals, and they are:
+
+* Knowledge dissemination with Information Security and Web and Game Development
 * Pratics with english, ruby, markdown, github and writing
 * Other random things

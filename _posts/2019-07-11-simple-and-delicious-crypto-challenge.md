@@ -62,13 +62,13 @@ We need to reverse this code and create a decrypt function.
 
 ### Reversing...
 
-So, first lets check the initials lines: we have a 0 to 6 random list and a random number between 0 and 1337.
-The encord function call encrypt function L(random number(0,1337)) times.
-On encrypt function, the first while will just add 2 points on encrypted flag;
-The msg[1:] + msg[:1] will put the first char in the end
-The msg[0::2] + msg[1::2] will split the msg and zip
-The msg[1:] + msg[:1] will put the first char in the end again
-The last double for will shuffle the msg with the random list logic.
+* So, first lets check the initials lines: we have a 0 to 6 random list and a random number between 0 and 1337;
+* The encord function call encrypt function L(random number(0,1337)) times;
+* On encrypt function, the first while will just add 2 points on encrypted flag;
+* The msg[1:] + msg[:1] will put the first char in the end;
+* The msg[0::2] + msg[1::2] will split the msg and zip;
+* The msg[1:] + msg[:1] will put the first char in the end again;
+* The last double for will shuffle the msg with the random list logic.
 
 ### Solution...
 

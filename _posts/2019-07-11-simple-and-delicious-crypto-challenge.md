@@ -10,12 +10,12 @@ tags:
 - infosec
 ---
 
-# A delicious soup(crypto) - Asis Quals 2019
+## A delicious soup(crypto) - Asis Quals 2019
 
 >Hi everyone! C:
 >This is a crypto challenge that i liked a lot and I was wanted to do my first post on my blog with this writeup, so finally now i have that :D
 
-### So basically we have...
+## So basically we have...
 
 This flag encrypted:
 
@@ -60,7 +60,7 @@ f.close()
 
 We need to reverse this code and create a decrypt function.
 
-### Reversing...
+## Reversing...
 
 * So, first lets check the initials lines: we have a 0 to 6 random list and a random number between 0 and 1337;
 * The encord function call encrypt function L(random number(0,1337)) times;
@@ -70,14 +70,14 @@ We need to reverse this code and create a decrypt function.
 * The msg[1:] + msg[:1] will put the first char in the end again;
 * The last double for will shuffle the msg with the random list logic.
 
-### Solution...
+## Solution...
 
 The weakness of this crypto is that the key(The random list) has 5040 possibilities, so we just need to brute that C:
 
 >We can do it with itertools.permutations
 
 
-### The ~~*Jurandir*~~ Solver
+## The ~~*Jurandir*~~ Solver
 
 ```python 
 import itertools

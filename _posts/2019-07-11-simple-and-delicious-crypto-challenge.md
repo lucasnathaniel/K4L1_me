@@ -12,7 +12,7 @@ tags:
 
 # A delicious soup(crypto) - Asis Quals 2019
 
->Hi everyon! C:
+>Hi everyone! C:
 >This is a crypto challenge that i liked a lot and I was wanted to do my first post on my blog with this writeup, so finally now i have that :D
 
 ### So basically we have...

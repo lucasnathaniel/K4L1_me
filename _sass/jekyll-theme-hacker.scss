@@ -316,7 +316,20 @@ a.nounderline:link
 }
 .foot {
   text-align: center;
-  font-size: 70%;
+  font-size: 80%;
+  display: inline-block;
+  text-align: center;
+  width:100%;
+  text-align:center;
+}
+.copy-left {
+  font-size:20px;
+  display: inline-block;
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+  width:100%;
+  text-align:center;
 }
 /*--- redimensionar --*/
 @media screen and (max-width: 900px) {

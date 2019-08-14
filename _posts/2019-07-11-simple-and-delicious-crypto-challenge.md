@@ -114,11 +114,11 @@ def main():
 
 			if res.startswith("ASIS{"):
 				print res
-                exit(1)
+				exit(1)
 			flag = res
 
 if __name__ == "__main__":
-    main()
+	main()
 ```
 
 >Running the solver, after 805 iterations, we have the flag: ASIS{1n54n3ly_Simpl3_And_d3lic1Ous_5n4ckS_eVEn_l4zY_Pe0pL3_Can_Mak3}

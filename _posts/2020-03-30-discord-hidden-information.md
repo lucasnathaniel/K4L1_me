@@ -13,8 +13,6 @@ tags:
 - api
 ---
 
-# Acessing Discord hidden information
-
 Hi everyone! C:
 
 Discord is one of mosts used comunication software in the world that is supported on multiple plataforms. There you can create servers, channels, and a lot of things like create bots. You can use this application via web/client or API.
@@ -34,7 +32,7 @@ Some informations you can just see with API or edited client, like `hidden chann
 >Be careful about the Inquisitor! he can ban you from this world.
 >TL;DR use the bot to get the flag
 
-### Server: https://discord.gg/fHHyU6g
+### Server: ![Kingdom Chall](https://discord.gg/fHHyU6g)
 
 Hints: Title, 2FA may not work.
 
@@ -56,7 +54,8 @@ $ curl -sH "Authorization: $TOKEN" https://discordapp.com/api/v6/guilds/{guild.i
 
 ### BetterDiscord
 
-BetterDiscord is a cdited client that you can do a lot of cool stuffs like custom css, plugins and custom themes. For a long time Discord trying to deny this unoficial client updating the application to turn unuseful and threatening to ban users that use that. Btw, you can use this client with `Show hidden channels` plugin to solve this chall, as this video: 
+BetterDiscord is a cdited client that you can do a lot of cool stuffs like custom css, plugins and custom themes. For a long time Discord trying to deny this unoficial client updating the application to turn unuseful and threatening to ban users that use that. Btw, you can use this client with `Show hidden channels` plugin to solve this chall, as this video:
+
 [![](https://i.ytimg.com/vi/-COfkwjVEyY/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDQJJwJF7bjMk4RFU-BPiv05QS35w)](https://www.youtube.com/watch?v=-COfkwjVEyY)
 
 ### Self-Bot
@@ -65,7 +64,7 @@ Self-bot also is a hard thing because Discord dislike that, for this reason self
 
 I made the script below to get the hidden channell and print the topic and last_message_id:
 
-```python=
+```py
 import discord
 import asyncio
 from discord.ext import commands
@@ -100,7 +99,7 @@ The script can be a little slow because Discord Policy about self-bots.
 export TOKEN="Your Token"
 ```
 #### First Chall
-```
+```bash
 $ curl -sH "Authorization: $TOKEN" https://discordapp.com/api/v6/guilds/688190172793536536/channels | jq
 [
     //...
@@ -109,7 +108,7 @@ $ curl -sH "Authorization: $TOKEN" https://discordapp.com/api/v6/guilds/68819017
 ]
 ```
 #### Second Chall
-```
+```bash
 $ curl -sH "Authorization: $TOKEN" https://discordapp.com/api/v6/guilds/688190172793536536/channels | jq
 [
     //...

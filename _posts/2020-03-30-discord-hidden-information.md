@@ -1,5 +1,5 @@
 ---
-title: Acessing Discord hidden information
+title: Accessing Discord hidden information
 layout: post 
 date: '2020-03-30 00:15:00'
 description: Discord FireShellCTF Misc Writeup
@@ -46,7 +46,7 @@ Has so many ways to solve:
 
 2FA/OAuth may not work because the Token.
 
-You need to be carefault about the Discord Policy. Self-bots, edited client and some requests via cURL can unverify your e-mail or ban you, this occour trying something like list all members on server with:
+You need to be carefull about the Discord Policy. Self-bots, edited client and some requests via cURL can unverify your e-mail or ban you, this occour trying something like list all members on server with:
 
 ```bash
 $ curl -sH "Authorization: $TOKEN" https://discordapp.com/api/v6/guilds/{guild.id}/members | jq
@@ -128,7 +128,7 @@ F#{S4b3R_15_Th3_K1ng_Arthur}
 
 ## References
 
-* [Acessing Discord hidden information](https://lucasnathaniel.github.io/telegram-misc-challenge/)
+* [Accessing Discord hidden information](https://lucasnathaniel.github.io/discord-hidden-information/)
 * [Discord Oficial API](https://discordapp.com/developers/docs/reference)
 * [Python Discord API](https://discordpy.readthedocs.io/en/latest/)
 * [BetterDiscord](https://betterdiscord.net/)

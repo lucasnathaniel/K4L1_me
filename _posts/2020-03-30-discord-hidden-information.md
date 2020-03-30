@@ -40,13 +40,13 @@ This Discord server has basically one channel called `tavern`. You need to pay a
 
 Has so many ways to solve:
 1. Edited Client(BetterDiscord)
-2. cURL(Oficial Discord API)
+2. Oficial Discord API
 3. Self-bot
 4. Client Web + BurpSuite
 
 2FA/OAuth may not work because the Token.
 
-You need to be carefull about the Discord Policy. Self-bots, edited client and some requests via cURL can unverify your e-mail or ban you, this occour trying something like list all members on server with:
+You need to be carefull about the Discord Policy. Self-bots, edited client and some requests via Discord API can unverify your e-mail or ban you, this occour trying something like list all members on server with:
 
 ```bash
 $ curl -sH "Authorization: $TOKEN" https://discordapp.com/api/v6/guilds/{guild.id}/members | jq
@@ -93,7 +93,9 @@ if __name__ == "__main__":
 
 The script can be a little slow because Discord Policy about self-bots.
 
-### cURL
+### Discord API
+
+You can request the Discord API via cURL or with `request` python lib like this script: [Writeup by lyellread](https://github.com/lyellread/ctf-writeups/blob/master/2020-fireshell/discord-1-and-2/README.md). (Btw, nice writeup dude! C: )
 
 ```bash
 export TOKEN="Your Token"

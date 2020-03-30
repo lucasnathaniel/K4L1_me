@@ -32,7 +32,7 @@ Some informations you can just see with API or edited client, like `hidden chann
 >Be careful about the Inquisitor! he can ban you from this world.
 >TL;DR use the bot to get the flag
 
-### Server: ![Kingdom Chall](https://discord.gg/fHHyU6g)
+### Server: [Kingdom Chall](https://discord.gg/fHHyU6g)
 
 Hints: Title, 2FA may not work.
 

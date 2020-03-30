@@ -17,7 +17,7 @@ Hi everyone! C:
 
 Discord is one of mosts used comunication software in the world that is supported on multiple plataforms. There you can create servers, channels, and a lot of things like create bots. You can use this application via web/client or API.
 
-Some informations you can just see with API or edited client, like `hidden channels`. On FireShellCTF2020 i made two challenges that you need to manage these things and get the flag.
+Some informations shouldn't be seen for any user on any plataform, but you can see with API or edited client, like `hidden channels`. On FireShellCTF2020 i made two challenges that you need to manage these things and get the flag.
 
 
 ## MISC Challenges - Against the Perfect discord Inquisitor 1 & 2

@@ -1,23 +1,20 @@
 ---
-title: Accessing Discord hidden information
+title: FireShell CTF 2020 - Against the Perfect discord Inquisitor 1 and 2
 layout: post 
-date: '2020-03-30 00:15:00'
-description: Discord FireShellCTF Misc Writeup
+date: '2020-03-30 10:20:00'
+description: Writeup of Against the Perfect discord Inquisitor 1 and 2
 tags:
 - ctf
 - writeup
 - misc
-- infosec
-- fireshellctf
-- discord
-- api
+author: k4l1
 ---
 
 Hi everyone! C:
 
-Discord is one of mosts used comunication software in the world that is supported on multiple plataforms. There you can create servers, channels, and a lot of things like create bots. You can use this application via web/client or API.
+Discord is one of mosts used communication software in the world that is supported on multiple platforms. There you can create servers, channels, and a lot of things like create bots. You can use this application via web/client or API.
 
-Some informations shouldn't be seen for any user on any plataform, but you can see with API or edited client, like `hidden channels`. On FireShellCTF2020 i made two challenges that you need to manage these things and get the flag.
+Some informations you can just see with API or edited client, like `hidden channels`. On FireShell CTF 2020 I made two challenges that you need to manage these things and get the flag.
 
 
 ## MISC Challenges - Against the Perfect discord Inquisitor 1 & 2
@@ -25,12 +22,14 @@ Some informations shouldn't be seen for any user on any plataform, but you can s
 ### First description
 >You're on a journay and becomes to the Tavern of a >Kingdom Enemy, you need to get information of a secret >organization for the next quest. Be careful about the >Inquisitor! he can ban you from this world.
 >TL;DR find the flag
+>{:.blockquote}
 
 ### Second description
 
 >Has a mage on tavern that reveals secrets from place. He is friendly, so he can help you!
 >Be careful about the Inquisitor! he can ban you from this world.
 >TL;DR use the bot to get the flag
+>{:.blockquote}
 
 ### Server: [Kingdom Chall](https://discord.gg/fHHyU6g)
 
@@ -40,13 +39,13 @@ This Discord server has basically one channel called `tavern`. You need to pay a
 
 Has so many ways to solve:
 1. Edited Client(BetterDiscord)
-2. Oficial Discord API
+2. Official Discord API
 3. Self-bot
 4. Client Web + BurpSuite
 
 2FA/OAuth may not work because the Token.
 
-You need to be carefull about the Discord Policy. Self-bots, edited client and some requests via Discord API can unverify your e-mail or ban you, this occour trying something like list all members on server with:
+You need to be careful about the Discord Policy. Self-bots, edited client and some requests via Discord API can verify your e-mail or ban you, this occur trying something like list all members on server with:
 
 ```bash
 $ curl -sH "Authorization: $TOKEN" https://discordapp.com/api/v6/guilds/{guild.id}/members | jq
@@ -54,7 +53,7 @@ $ curl -sH "Authorization: $TOKEN" https://discordapp.com/api/v6/guilds/{guild.i
 
 ### BetterDiscord
 
-BetterDiscord is a cdited client that you can do a lot of cool stuffs like custom css, plugins and custom themes. For a long time Discord trying to deny this unoficial client updating the application to turn unuseful and threatening to ban users that use that. Btw, you can use this client with `Show hidden channels` plugin to solve this chall, as this video:
+BetterDiscord is a edited client that you can do a lot of cool stuffs like custom css, plug-ins and custom themes. For a long time Discord trying to deny this unofficial client updating the application to turn useless and threatening to ban users that use that. Btw, you can use this client with `Show hidden channels` plug-in to solve this chall, as this video:
 
 [![](https://i.ytimg.com/vi/-COfkwjVEyY/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDQJJwJF7bjMk4RFU-BPiv05QS35w)](https://www.youtube.com/watch?v=-COfkwjVEyY)
 
@@ -62,7 +61,7 @@ BetterDiscord is a cdited client that you can do a lot of cool stuffs like custo
 
 Self-bot also is a hard thing because Discord dislike that, for this reason self-bots in JS Discord lib was deprecated, only on Python lib worked for me.
 
-I made the script below to get the hidden channell and print the topic and last_message_id:
+I made the script below to get the hidden channel and print the topic and last_message_id:
 
 ```py
 import discord

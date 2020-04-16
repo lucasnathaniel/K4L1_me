@@ -41,7 +41,7 @@ pwn:
   name: Pwnable
 
 infosec:
-  name: Infosec
+  name: Information Security
 
 rev:
   name: Reverse Engineering

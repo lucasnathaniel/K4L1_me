@@ -3,6 +3,7 @@ title: A delicious soup Crypto Challenge
 layout: post 
 date: '2019-07-11 15:00:00'
 description: Writeup for crypto of Asis Quals CTF 2019
+image: 'https://i.imgur.com/LnGay3i.jpg'
 tags:
 - ctf
 - writeup

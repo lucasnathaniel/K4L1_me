@@ -3,6 +3,7 @@ title: FireShell CTF 2020 - Against the Perfect discord Inquisitor 1 and 2
 layout: post 
 date: '2020-03-30 10:20:00'
 description: Writeup of Against the Perfect discord Inquisitor 1 and 2
+image: 'https://i.imgur.com/IwVgujt.jpg'
 tags:
 - ctf
 - writeup

@@ -3,6 +3,7 @@ title: CyBRICS CTF Quals 2019 - Telegram
 layout: post 
 date: '2019-07-25 18:30:00'
 description: writeup for misc Telegram
+image: 'https://i.imgur.com/dErWuMu.jpg'
 tags:
 - ctf
 - writeup

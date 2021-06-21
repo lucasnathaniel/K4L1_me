@@ -3,7 +3,7 @@ title: Hello World
 layout: post 
 date: '2019-06-28 16:40:00'
 description: My frist post
-image: 'https://i.imgur.com/wZ02kqX.jp'
+image: 'https://i.imgur.com/wZ02kqX.jpg'
 tags:
 - personal
 ---

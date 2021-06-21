@@ -1,10 +1,10 @@
 # Site settings
-title: blog do K4L1
-email: lucasnataniel@fireshellsecurity.team
+title: blog da K4L1
+email: kalinathalie@fireshellsecurity.team
 description: Some information about dev, infosec and others things
 google_analytics: UA-108548581-1
 baseurl: ""
-url: "https://lucasnathaniel.github.io/"
+url: "https://kalinathalie.github.io/"
 author: root
 
 theme: jekyll-theme-hacker

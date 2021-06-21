@@ -101,4 +101,4 @@ After that, just run the script, access your bot, send anything to it, receive t
 
 ## Reference
 
-* [Telegram Misc Challenge](https://lucasnathaniel.github.io/telegram-misc-challenge/)
+* [Telegram Misc Challenge](https://kalinathalie.github.io/telegram-misc-challenge/)

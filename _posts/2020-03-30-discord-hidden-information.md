@@ -130,7 +130,7 @@ F#{S4b3R_15_Th3_K1ng_Arthur}
 
 ## References
 
-* [Accessing Discord hidden information](https://lucasnathaniel.github.io/discord-hidden-information/)
+* [Accessing Discord hidden information](https://kalinathalie.github.io/discord-hidden-information/)
 * [Discord Oficial API](https://discordapp.com/developers/docs/reference)
 * [Python Discord API](https://discordpy.readthedocs.io/en/latest/)
 * [BetterDiscord](https://betterdiscord.net/)

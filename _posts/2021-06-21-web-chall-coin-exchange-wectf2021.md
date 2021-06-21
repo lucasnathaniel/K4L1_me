@@ -3,7 +3,7 @@ title: WeCTF 2021 - Coin Exchange
 layout: post 
 date: '2021-06-21 11:00:00'
 description: solving a CSWSH vuln chall
-image: 'https://i.imgur.com/wZ02kqX.jpg'
+image: 'https://i.imgur.com/amEYCG6.jpg'
 tags:
 - web
 - ctf

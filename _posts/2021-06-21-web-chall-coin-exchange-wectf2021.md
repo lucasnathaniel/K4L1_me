@@ -83,7 +83,7 @@ On second line we can see that it use a custom protocol called `ethexchange-api`
 
 For send a page to admin, I'm using `ngrok` with python `SimpleHTTPServer` and receiving the response with `Burp Collaborator`.
 
-Let's try to code a xpl to send to admin...
+Let's try send a exploit to admin that transfer 3 Eth to our account...
 
 ```html
 <!DOCTYPE html>
@@ -105,7 +105,7 @@ Let's try to code a xpl to send to admin...
 </html>
 ```
 
-Sending this to admin...
+Sending...
 
 ![](https://i.imgur.com/h8o4Fkp.png)
 
@@ -138,7 +138,7 @@ Badly, the admin don't have Eth, so we need to buy with his money(on Ranking Pag
 Sending again to admin, we can see that we transferred 3 eth after buy it 3 times with $7000.
 ![](https://i.imgur.com/XEa4u0p.png)
 
-Intercepting again after got more than $5000:
+Intercepting again after got more than $5000 on our account:
 
 ![](https://i.imgur.com/aYLN8L9.png)
 

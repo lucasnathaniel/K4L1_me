@@ -32,7 +32,7 @@ After lot of months I'm posting here again! I played the WeCTF 2021(a only-web C
 >Host 3 (New York): coin.ny.ctf.so:4001
 >Host 4 (Singapore): coin.sg.ctf.so:4001
 >
->Source Code: [here]([https://](https://cdn.discordapp.com/attachments/855858525087334421/855858633715351597/coin-exchange.zip))
+>Source Code: [here](https://cdn.discordapp.com/attachments/855858525087334421/855858633715351597/coin-exchange.zip)
 
 ## Coin Exchange Website
 

@@ -55,14 +55,14 @@ After lot of months I'm posting here again! I played the WeCTF 2021(a only-web C
 
 ## Solution
 
-This site use Websocket instead http requests and isn't protected to CSRF, so basically we need send to admin a malicious website with CSWSH(Cross-site websocket hijacking) to transfer eth to your account.
+This site uses Websocket instead http requests and isn't protected to CSRF, so basically we need to send to admin a malicious website with CSWSH (Cross-site websocket hijacking) to transfer eth to our account.
 
-Intercepting with BurpSuite and seeing on `WebSockets history` we can read the traffic:
+By intercepting with BurpSuite and seeing on `WebSockets history`, we can read the traffic:
 
 ![](https://i.imgur.com/GwnLdLz.png)
 
 
-Checking the source, we can see how the connection is created:
+By Checking the source, we can see how the connection is created:
 
 
 ```js
@@ -79,9 +79,9 @@ function start_socket(){
 }
 ```
 
-On second line we can see that it use a custom protocol called `ethexchange-api`, this will be important to connect.
+On second line we can see that it uses a custom protocol called `ethexchange-api`, this will be important to connect.
 
-For send a page to admin, I'm using `ngrok` with python `SimpleHTTPServer` and receiving the response with `Burp Collaborator`.
+By send a page to admin, I'm using `ngrok` with python `SimpleHTTPServer` and receiving the response with `Burp Collaborator`.
 
 Let's try send a exploit to admin that transfer 3 Eth to our account...
 
@@ -109,7 +109,7 @@ Sending...
 
 ![](https://i.imgur.com/h8o4Fkp.png)
 
-Badly, the admin don't have Eth, so we need to buy with his money(on Ranking Page show that the admin had `$1000000000000`).
+Badly, the admin doesn't have Eth, so we need to buy with his money(on Ranking Page show that the admin had `$1000000000000`).
 
 ```js
 <!DOCTYPE html>
@@ -135,10 +135,10 @@ Badly, the admin don't have Eth, so we need to buy with his money(on Ranking Pag
 </html>
 ```
 
-Sending again to admin, we can see that we transferred 3 eth after buy it 3 times with $7000.
+By sending again to admin, we can see that we transferred 3 eth after buy it 3 times with $7000.
 ![](https://i.imgur.com/XEa4u0p.png)
 
-Intercepting again after got more than $5000 on our account:
+By intercepting again after we got more than $5000 on our account:
 
 ![](https://i.imgur.com/aYLN8L9.png)
 
